@@ -1,0 +1,49 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 55px;
+    margin: 0px 0px 40px 0px;
+    padding-left: 20px;
+    
+}
+
+#vertical_line{
+    border-left: 5px solid green;
+    border-left-style: ;
+}
+
+.header_color{   
+    color: rgb(78, 12, 165);
+}
+
+section{
+    display: flex;
+}
+
+.half_width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half_width img{
+    width: 80%;
+    
+}
+#left_header_div{
+    margin-top: 10%;
+}
+
+.link_button{
+    background-image: radial-gradient(blue, rgb(16, 120, 206));
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;  
+}
