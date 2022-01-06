@@ -1,17 +1,21 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 body p{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
 }
 
-h1{
+#center_heading h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.half_width h1{
     font-size: 55px;
     margin: 0px 0px 40px 0px;
     padding-left: 20px;
-    
 }
 
 #vertical_line{
@@ -25,6 +29,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 10%;
 }
 
 .half_width{
@@ -40,10 +45,98 @@ section{
 }
 
 .link_button{
-    background-image: radial-gradient(blue, rgb(16, 120, 206));
+    background-image: radial-gradient(rgb(28, 28, 223), rgb(16, 120, 206));
     padding: 10px 20px;
     border-radius: 8px;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;  
 }
+
+.section_2{
+    margin:0 8%;
+}
+
+.div_section_2{
+    height: 380px;
+    width: 100%;
+    margin: 15px;
+    border-radius: 30px; 
+    padding-left: 35px;
+}
+
+.div_section_2 img{
+    width: 60%;
+    padding-top: 15px;
+    
+}
+
+.section_3_4{
+    margin: 8% 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.divide{
+    width: 50%;
+}
+
+.divide h1{
+    font-size: 35px;
+}
+
+#divide_left_image img{
+    width: 75%;
+    border-radius: 20px;
+    float: left;
+}
+#divide_right_image img{
+    width: 75%;
+    border-radius: 20px;
+    float: right;
+}
+
+#bg_section_3{
+    background-image: url(images/shapes/shape_1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 22%;
+}
+
+#bg_section_4{
+    background-image: url(images/shapes/shape_1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 15%;
+    
+}
+
+#last_section_left_div img{
+    width: 45%;
+    padding-left: 100px;
+}
+
+
+.div_section_5{
+    height: 200px;
+    width: 100%;
+    margin: 15px; 
+    text-align: center;
+}
+
+.div_section_5 p{
+    font-size: 15px;
+}
+
+footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    font-size: 15px;
+}
+
